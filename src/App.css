@@ -1,0 +1,110 @@
+p {
+  margin-bottom: 5px;
+}
+  label {
+    display: block;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+  body{
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  background-image: url('bg.jpg');
+  
+  }
+  input[type=text] {
+    margin: 0 0 10px;
+    color: #555;
+    background-color: #fff;
+    border-color: #ccc;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 0;
+    width: 100%;
+    max-width: 300px;
+    font-size: 14px;
+    padding: 0px 5px;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: 400;
+    box-shadow: 0 1px 1px rgba(0,0,0,.075) inset;
+    height: 35px;
+    line-height: 1.3;
+  }
+  .App {
+    background-color: #eaeaea;
+    width: 100%;
+    display: table;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url('job.jpg');
+  }
+  .description
+  {
+    font-color:black;
+    font-family: 'Poppins', sans-serif; 
+  }
+  .App > .Content {
+    display: table;
+    margin: 0 auto;
+    padding: 50px 10px;
+    width: 100%;
+    max-width: 900px;
+    color : white;
+  }
+  
+  .App h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 0;
+  }
+  .Reset {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+  }
+  .Reset:hover{
+    background-color: purple;
+  }
+  .Reset:disabled{
+    cursor: not-allowed;
+    background-color: purple;
+  }
+  .Next {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+  }
+  .Next:hover{
+    background-color: #37843a;
+  }
+  .Next:disabled{
+    cursor: not-allowed;
+    background-color: #7aa07c;
+  }
+  .Back {
+    background-color: #c77f27;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 10px 10px 0 0;
+    cursor: pointer;
+  }
+  .Back:hover{
+    background-color: #9e631b;
+  }
